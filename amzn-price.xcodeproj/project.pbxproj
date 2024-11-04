@@ -1,0 +1,1121 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11BAA3E48F79CE5B5EDFF008 /* Pods_amzn_priceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DB9748FF73966A46C5154E /* Pods_amzn_priceTests.framework */; };
+		31312E0424A1F69E00B62A40 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31312E0324A1F69C00B62A40 /* WidgetKit.framework */; };
+		31312E0624A1F69E00B62A40 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31312E0524A1F69E00B62A40 /* SwiftUI.framework */; };
+		31312E0924A1F6A000B62A40 /* amzn_price_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31312E0824A1F6A000B62A40 /* amzn_price_ext.swift */; };
+		31312E0C24A1F6A900B62A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31312E0B24A1F6A900B62A40 /* Assets.xcassets */; };
+		31312E0E24A1F6A900B62A40 /* amzn_price_ext.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 31312E0A24A1F6A200B62A40 /* amzn_price_ext.intentdefinition */; };
+		31312E0F24A1F6A900B62A40 /* amzn_price_ext.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 31312E0A24A1F6A200B62A40 /* amzn_price_ext.intentdefinition */; };
+		31312E1224A1F6A900B62A40 /* amzn-price-extExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 31312E0224A1F69C00B62A40 /* amzn-price-extExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		313EA55424A4365E00DF0992 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D621682352D12400108177 /* Data.swift */; };
+		313EA55524A4366800DF0992 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B56FFC2446D52D004C81D0 /* SearchView.swift */; };
+		313EA55624A4366800DF0992 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DC207323507A3C00AB204A /* ContentView.swift */; };
+		313EA55724A4366800DF0992 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B56FFA2445C917004C81D0 /* ProductListView.swift */; };
+		313EA55824A4366800DF0992 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DC206F23507A3C00AB204A /* AppDelegate.swift */; };
+		313EA55924A4366800DF0992 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DC207123507A3C00AB204A /* SceneDelegate.swift */; };
+		313EA55A24A4366800DF0992 /* graphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BE5DC5244570EA00EFCE59 /* graphView.swift */; };
+		313EA55D24A43A0B00DF0992 /* Data_base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EA55C24A43A0A00DF0992 /* Data_base.swift */; };
+		313EA55E24A43A8C00DF0992 /* Data_base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EA55C24A43A0A00DF0992 /* Data_base.swift */; };
+		315DED6624AEE1E600D0F538 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DED6524AEE1E600D0F538 /* SettingView.swift */; };
+		317484812447FC2100E3636D /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 317484802447FC2100E3636D /* SwiftUICharts */; };
+		31A358E024A985F700C4AF08 /* ListView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A358DF24A985F700C4AF08 /* ListView1.swift */; };
+		31A358E224A995D700C4AF08 /* PlusOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A358E124A995D700C4AF08 /* PlusOverView.swift */; };
+		31DC207623507A4400AB204A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DC207523507A4400AB204A /* Assets.xcassets */; };
+		31DC207923507A4400AB204A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DC207823507A4400AB204A /* Preview Assets.xcassets */; };
+		31DC207C23507A4400AB204A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DC207A23507A4400AB204A /* LaunchScreen.storyboard */; };
+		31DC208723507A4400AB204A /* amzn_priceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DC208623507A4400AB204A /* amzn_priceTests.swift */; };
+		31DC209223507A4400AB204A /* amzn_priceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DC209123507A4400AB204A /* amzn_priceUITests.swift */; };
+		31EB99E9258351E80020093A /* amzn_price_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31312E0824A1F6A000B62A40 /* amzn_price_ext.swift */; };
+		31FA2B9025767898008508CF /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA2B8F25767898008508CF /* IntentHandler.swift */; };
+		31FA2B9A257679A8008508CF /* amzn_price_ext.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 31312E0A24A1F6A200B62A40 /* amzn_price_ext.intentdefinition */; };
+		31FA2BA025767AA4008508CF /* Data_base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EA55C24A43A0A00DF0992 /* Data_base.swift */; };
+		70FA94E3BEC14F3F083FC7F9 /* Pods_amzn_price_amzn_priceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F2BF6A4581DC40462487B6 /* Pods_amzn_price_amzn_priceUITests.framework */; };
+		B0AD586001E502E1401002C4 /* Pods_amzn_price.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF12B1582A256AA67D74F0B /* Pods_amzn_price.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31312E1024A1F6A900B62A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DC206423507A3B00AB204A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31312E0124A1F69C00B62A40;
+			remoteInfo = "amzn-price-extExtension";
+		};
+		31DC208323507A4400AB204A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DC206423507A3B00AB204A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DC206B23507A3B00AB204A;
+			remoteInfo = "amzn-price";
+		};
+		31DC208E23507A4400AB204A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DC206423507A3B00AB204A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DC206B23507A3B00AB204A;
+			remoteInfo = "amzn-price";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31312E1324A1F6A900B62A40 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				31312E1224A1F6A900B62A40 /* amzn-price-extExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FF12B1582A256AA67D74F0B /* Pods_amzn_price.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amzn_price.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31312E0224A1F69C00B62A40 /* amzn-price-extExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "amzn-price-extExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31312E0324A1F69C00B62A40 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		31312E0524A1F69E00B62A40 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		31312E0824A1F6A000B62A40 /* amzn_price_ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amzn_price_ext.swift; sourceTree = "<group>"; };
+		31312E0A24A1F6A200B62A40 /* amzn_price_ext.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = amzn_price_ext.intentdefinition; sourceTree = "<group>"; };
+		31312E0B24A1F6A900B62A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31312E0D24A1F6A900B62A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		313EA55C24A43A0A00DF0992 /* Data_base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_base.swift; sourceTree = "<group>"; };
+		313EA55F24A45D5900DF0992 /* amzn-price-extExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "amzn-price-extExtension.entitlements"; sourceTree = "<group>"; };
+		314CC04B244F054D004D3188 /* 価格推移 beta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "価格推移 beta.entitlements"; sourceTree = "<group>"; };
+		315DED6524AEE1E600D0F538 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		31A358DF24A985F700C4AF08 /* ListView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView1.swift; sourceTree = "<group>"; };
+		31A358E124A995D700C4AF08 /* PlusOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOverView.swift; sourceTree = "<group>"; };
+		31B56FFA2445C917004C81D0 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		31B56FFC2446D52D004C81D0 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		31BE5DC5244570EA00EFCE59 /* graphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphView.swift; sourceTree = "<group>"; };
+		31D621682352D12400108177 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		31DC206C23507A3C00AB204A /* 価格推移 beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "価格推移 beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DC206F23507A3C00AB204A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31DC207123507A3C00AB204A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31DC207323507A3C00AB204A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31DC207523507A4400AB204A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31DC207823507A4400AB204A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31DC207B23507A4400AB204A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31DC207D23507A4400AB204A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DC208223507A4400AB204A /* amzn-priceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amzn-priceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DC208623507A4400AB204A /* amzn_priceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amzn_priceTests.swift; sourceTree = "<group>"; };
+		31DC208823507A4400AB204A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DC208D23507A4400AB204A /* amzn-priceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amzn-priceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DC209123507A4400AB204A /* amzn_priceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amzn_priceUITests.swift; sourceTree = "<group>"; };
+		31DC209323507A4400AB204A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FA2B8D25767898008508CF /* amzn-price-intent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "amzn-price-intent.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FA2B8F25767898008508CF /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		31FA2B9125767898008508CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DB9748FF73966A46C5154E /* Pods_amzn_priceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amzn_priceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		759EB8B0DD58FCABE620162D /* Pods-amzn-priceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amzn-priceTests.release.xcconfig"; path = "Target Support Files/Pods-amzn-priceTests/Pods-amzn-priceTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB927B835150B46B0F313306 /* Pods-amzn-price.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amzn-price.debug.xcconfig"; path = "Target Support Files/Pods-amzn-price/Pods-amzn-price.debug.xcconfig"; sourceTree = "<group>"; };
+		D80A5F2DA88EDB27FAA66ABA /* Pods-amzn-price-amzn-priceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amzn-price-amzn-priceUITests.debug.xcconfig"; path = "Target Support Files/Pods-amzn-price-amzn-priceUITests/Pods-amzn-price-amzn-priceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD0AAE2911593B6C90938B26 /* Pods-amzn-priceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amzn-priceTests.debug.xcconfig"; path = "Target Support Files/Pods-amzn-priceTests/Pods-amzn-priceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E443A62A5E2E900562A729D6 /* Pods-amzn-price.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amzn-price.release.xcconfig"; path = "Target Support Files/Pods-amzn-price/Pods-amzn-price.release.xcconfig"; sourceTree = "<group>"; };
+		EC79CB057B762DAB7B806E89 /* Pods-amzn-price-amzn-priceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amzn-price-amzn-priceUITests.release.xcconfig"; path = "Target Support Files/Pods-amzn-price-amzn-priceUITests/Pods-amzn-price-amzn-priceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7F2BF6A4581DC40462487B6 /* Pods_amzn_price_amzn_priceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amzn_price_amzn_priceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31312DFF24A1F69C00B62A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31312E0624A1F69E00B62A40 /* SwiftUI.framework in Frameworks */,
+				31312E0424A1F69E00B62A40 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC206923507A3B00AB204A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AD586001E502E1401002C4 /* Pods_amzn_price.framework in Frameworks */,
+				317484812447FC2100E3636D /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC207F23507A4400AB204A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BAA3E48F79CE5B5EDFF008 /* Pods_amzn_priceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC208A23507A4400AB204A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70FA94E3BEC14F3F083FC7F9 /* Pods_amzn_price_amzn_priceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA2B8A25767898008508CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31312E0724A1F69F00B62A40 /* amzn-price-ext */ = {
+			isa = PBXGroup;
+			children = (
+				31312E0824A1F6A000B62A40 /* amzn_price_ext.swift */,
+				31312E0A24A1F6A200B62A40 /* amzn_price_ext.intentdefinition */,
+				31312E0B24A1F6A900B62A40 /* Assets.xcassets */,
+				31312E0D24A1F6A900B62A40 /* Info.plist */,
+			);
+			path = "amzn-price-ext";
+			sourceTree = "<group>";
+		};
+		31D621672352D05E00108177 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31D621682352D12400108177 /* Data.swift */,
+				313EA55C24A43A0A00DF0992 /* Data_base.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31D9E39E24A9A79100B79B2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31DC207323507A3C00AB204A /* ContentView.swift */,
+				31B56FFA2445C917004C81D0 /* ProductListView.swift */,
+				31A358E124A995D700C4AF08 /* PlusOverView.swift */,
+				31A358DF24A985F700C4AF08 /* ListView1.swift */,
+				31B56FFC2446D52D004C81D0 /* SearchView.swift */,
+				315DED6524AEE1E600D0F538 /* SettingView.swift */,
+				31BE5DC5244570EA00EFCE59 /* graphView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31DC206323507A3B00AB204A = {
+			isa = PBXGroup;
+			children = (
+				313EA55F24A45D5900DF0992 /* amzn-price-extExtension.entitlements */,
+				31DC206E23507A3C00AB204A /* amzn-price */,
+				31DC208523507A4400AB204A /* amzn-priceTests */,
+				31DC209023507A4400AB204A /* amzn-priceUITests */,
+				31312E0724A1F69F00B62A40 /* amzn-price-ext */,
+				31FA2B8E25767898008508CF /* amzn-price-intent */,
+				31DC206D23507A3C00AB204A /* Products */,
+				88936A06C669A01A86ED3703 /* Pods */,
+				FB1ED3BB258688598878D970 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31DC206D23507A3C00AB204A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31DC206C23507A3C00AB204A /* 価格推移 beta.app */,
+				31DC208223507A4400AB204A /* amzn-priceTests.xctest */,
+				31DC208D23507A4400AB204A /* amzn-priceUITests.xctest */,
+				31312E0224A1F69C00B62A40 /* amzn-price-extExtension.appex */,
+				31FA2B8D25767898008508CF /* amzn-price-intent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31DC206E23507A3C00AB204A /* amzn-price */ = {
+			isa = PBXGroup;
+			children = (
+				31D9E39E24A9A79100B79B2A /* Views */,
+				314CC04B244F054D004D3188 /* 価格推移 beta.entitlements */,
+				31D621672352D05E00108177 /* Models */,
+				31DC206F23507A3C00AB204A /* AppDelegate.swift */,
+				31DC207123507A3C00AB204A /* SceneDelegate.swift */,
+				31DC207523507A4400AB204A /* Assets.xcassets */,
+				31DC207A23507A4400AB204A /* LaunchScreen.storyboard */,
+				31DC207D23507A4400AB204A /* Info.plist */,
+				31DC207723507A4400AB204A /* Preview Content */,
+			);
+			path = "amzn-price";
+			sourceTree = "<group>";
+		};
+		31DC207723507A4400AB204A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				31DC207823507A4400AB204A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31DC208523507A4400AB204A /* amzn-priceTests */ = {
+			isa = PBXGroup;
+			children = (
+				31DC208623507A4400AB204A /* amzn_priceTests.swift */,
+				31DC208823507A4400AB204A /* Info.plist */,
+			);
+			path = "amzn-priceTests";
+			sourceTree = "<group>";
+		};
+		31DC209023507A4400AB204A /* amzn-priceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31DC209123507A4400AB204A /* amzn_priceUITests.swift */,
+				31DC209323507A4400AB204A /* Info.plist */,
+			);
+			path = "amzn-priceUITests";
+			sourceTree = "<group>";
+		};
+		31FA2B8E25767898008508CF /* amzn-price-intent */ = {
+			isa = PBXGroup;
+			children = (
+				31FA2B8F25767898008508CF /* IntentHandler.swift */,
+				31FA2B9125767898008508CF /* Info.plist */,
+			);
+			path = "amzn-price-intent";
+			sourceTree = "<group>";
+		};
+		88936A06C669A01A86ED3703 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB927B835150B46B0F313306 /* Pods-amzn-price.debug.xcconfig */,
+				E443A62A5E2E900562A729D6 /* Pods-amzn-price.release.xcconfig */,
+				D80A5F2DA88EDB27FAA66ABA /* Pods-amzn-price-amzn-priceUITests.debug.xcconfig */,
+				EC79CB057B762DAB7B806E89 /* Pods-amzn-price-amzn-priceUITests.release.xcconfig */,
+				DD0AAE2911593B6C90938B26 /* Pods-amzn-priceTests.debug.xcconfig */,
+				759EB8B0DD58FCABE620162D /* Pods-amzn-priceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB1ED3BB258688598878D970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF12B1582A256AA67D74F0B /* Pods_amzn_price.framework */,
+				F7F2BF6A4581DC40462487B6 /* Pods_amzn_price_amzn_priceUITests.framework */,
+				53DB9748FF73966A46C5154E /* Pods_amzn_priceTests.framework */,
+				31312E0324A1F69C00B62A40 /* WidgetKit.framework */,
+				31312E0524A1F69E00B62A40 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31312E0124A1F69C00B62A40 /* amzn-price-extExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31312E1624A1F6A900B62A40 /* Build configuration list for PBXNativeTarget "amzn-price-extExtension" */;
+			buildPhases = (
+				31312DFE24A1F69C00B62A40 /* Sources */,
+				31312DFF24A1F69C00B62A40 /* Frameworks */,
+				31312E0024A1F69C00B62A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amzn-price-extExtension";
+			productName = "amzn-price-extExtension";
+			productReference = 31312E0224A1F69C00B62A40 /* amzn-price-extExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		31DC206B23507A3B00AB204A /* amzn-price */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DC209623507A4400AB204A /* Build configuration list for PBXNativeTarget "amzn-price" */;
+			buildPhases = (
+				144E2E83DAF2759C97BD1DC9 /* [CP] Check Pods Manifest.lock */,
+				31DC206823507A3B00AB204A /* Sources */,
+				31DC206923507A3B00AB204A /* Frameworks */,
+				31DC206A23507A3B00AB204A /* Resources */,
+				34BEB0226EBAFADC6DC1F6AC /* [CP] Embed Pods Frameworks */,
+				31312E1324A1F6A900B62A40 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31312E1124A1F6A900B62A40 /* PBXTargetDependency */,
+			);
+			name = "amzn-price";
+			packageProductDependencies = (
+				317484802447FC2100E3636D /* SwiftUICharts */,
+			);
+			productName = "amzn-price";
+			productReference = 31DC206C23507A3C00AB204A /* 価格推移 beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31DC208123507A4400AB204A /* amzn-priceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DC209923507A4400AB204A /* Build configuration list for PBXNativeTarget "amzn-priceTests" */;
+			buildPhases = (
+				A91C42D5A93982CEB0958AC4 /* [CP] Check Pods Manifest.lock */,
+				31DC207E23507A4400AB204A /* Sources */,
+				31DC207F23507A4400AB204A /* Frameworks */,
+				31DC208023507A4400AB204A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DC208423507A4400AB204A /* PBXTargetDependency */,
+			);
+			name = "amzn-priceTests";
+			productName = "amzn-priceTests";
+			productReference = 31DC208223507A4400AB204A /* amzn-priceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31DC208C23507A4400AB204A /* amzn-priceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DC209C23507A4400AB204A /* Build configuration list for PBXNativeTarget "amzn-priceUITests" */;
+			buildPhases = (
+				0BBA8AF61964D21B6D98CA31 /* [CP] Check Pods Manifest.lock */,
+				31DC208923507A4400AB204A /* Sources */,
+				31DC208A23507A4400AB204A /* Frameworks */,
+				31DC208B23507A4400AB204A /* Resources */,
+				6207F12AD704B366698950AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DC208F23507A4400AB204A /* PBXTargetDependency */,
+			);
+			name = "amzn-priceUITests";
+			productName = "amzn-priceUITests";
+			productReference = 31DC208D23507A4400AB204A /* amzn-priceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		31FA2B8C25767898008508CF /* amzn-price-intent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FA2B9425767898008508CF /* Build configuration list for PBXNativeTarget "amzn-price-intent" */;
+			buildPhases = (
+				31FA2B8925767898008508CF /* Sources */,
+				31FA2B8A25767898008508CF /* Frameworks */,
+				31FA2B8B25767898008508CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amzn-price-intent";
+			productName = "amzn-price-intent";
+			productReference = 31FA2B8D25767898008508CF /* amzn-price-intent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31DC206423507A3B00AB204A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = takpika;
+				TargetAttributes = {
+					31312E0124A1F69C00B62A40 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					31DC206B23507A3B00AB204A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					31DC208123507A4400AB204A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 31DC206B23507A3B00AB204A;
+					};
+					31DC208C23507A4400AB204A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 31DC206B23507A3B00AB204A;
+					};
+					31FA2B8C25767898008508CF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 31DC206723507A3B00AB204A /* Build configuration list for PBXProject "amzn-price" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31DC206323507A3B00AB204A;
+			packageReferences = (
+				3174847F2447FC2000E3636D /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 31DC206D23507A3C00AB204A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31DC206B23507A3B00AB204A /* amzn-price */,
+				31DC208123507A4400AB204A /* amzn-priceTests */,
+				31DC208C23507A4400AB204A /* amzn-priceUITests */,
+				31312E0124A1F69C00B62A40 /* amzn-price-extExtension */,
+				31FA2B8C25767898008508CF /* amzn-price-intent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31312E0024A1F69C00B62A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31312E0C24A1F6A900B62A40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC206A23507A3B00AB204A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DC207C23507A4400AB204A /* LaunchScreen.storyboard in Resources */,
+				31DC207923507A4400AB204A /* Preview Assets.xcassets in Resources */,
+				31DC207623507A4400AB204A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC208023507A4400AB204A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC208B23507A4400AB204A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA2B8B25767898008508CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BBA8AF61964D21B6D98CA31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amzn-price-amzn-priceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		144E2E83DAF2759C97BD1DC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amzn-price-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34BEB0226EBAFADC6DC1F6AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amzn-price/Pods-amzn-price-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amzn-price/Pods-amzn-price-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amzn-price/Pods-amzn-price-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6207F12AD704B366698950AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amzn-price-amzn-priceUITests/Pods-amzn-price-amzn-priceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amzn-price-amzn-priceUITests/Pods-amzn-price-amzn-priceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amzn-price-amzn-priceUITests/Pods-amzn-price-amzn-priceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A91C42D5A93982CEB0958AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amzn-priceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31312DFE24A1F69C00B62A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31312E0E24A1F6A900B62A40 /* amzn_price_ext.intentdefinition in Sources */,
+				313EA55E24A43A8C00DF0992 /* Data_base.swift in Sources */,
+				31312E0924A1F6A000B62A40 /* amzn_price_ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC206823507A3B00AB204A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A358E024A985F700C4AF08 /* ListView1.swift in Sources */,
+				313EA55824A4366800DF0992 /* AppDelegate.swift in Sources */,
+				313EA55D24A43A0B00DF0992 /* Data_base.swift in Sources */,
+				313EA55924A4366800DF0992 /* SceneDelegate.swift in Sources */,
+				31312E0F24A1F6A900B62A40 /* amzn_price_ext.intentdefinition in Sources */,
+				313EA55524A4366800DF0992 /* SearchView.swift in Sources */,
+				313EA55624A4366800DF0992 /* ContentView.swift in Sources */,
+				31A358E224A995D700C4AF08 /* PlusOverView.swift in Sources */,
+				313EA55424A4365E00DF0992 /* Data.swift in Sources */,
+				315DED6624AEE1E600D0F538 /* SettingView.swift in Sources */,
+				313EA55724A4366800DF0992 /* ProductListView.swift in Sources */,
+				313EA55A24A4366800DF0992 /* graphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC207E23507A4400AB204A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DC208723507A4400AB204A /* amzn_priceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC208923507A4400AB204A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DC209223507A4400AB204A /* amzn_priceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA2B8925767898008508CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA2B9A257679A8008508CF /* amzn_price_ext.intentdefinition in Sources */,
+				31FA2BA025767AA4008508CF /* Data_base.swift in Sources */,
+				31FA2B9025767898008508CF /* IntentHandler.swift in Sources */,
+				31EB99E9258351E80020093A /* amzn_price_ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31312E1124A1F6A900B62A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31312E0124A1F69C00B62A40 /* amzn-price-extExtension */;
+			targetProxy = 31312E1024A1F6A900B62A40 /* PBXContainerItemProxy */;
+		};
+		31DC208423507A4400AB204A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DC206B23507A3B00AB204A /* amzn-price */;
+			targetProxy = 31DC208323507A4400AB204A /* PBXContainerItemProxy */;
+		};
+		31DC208F23507A4400AB204A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DC206B23507A3B00AB204A /* amzn-price */;
+			targetProxy = 31DC208E23507A4400AB204A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31DC207A23507A4400AB204A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DC207B23507A4400AB204A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31312E1424A1F6A900B62A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "amzn-price-extExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "amzn-price-ext/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.amzn-price.amzn-price-ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31312E1524A1F6A900B62A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "amzn-price-extExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "amzn-price-ext/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.amzn-price.amzn-price-ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31DC209423507A4400AB204A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31DC209523507A4400AB204A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31DC209723507A4400AB204A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB927B835150B46B0F313306 /* Pods-amzn-price.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "amzn-price/価格推移 beta.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "amzn-price/Preview\\ Content";
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amzn-price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.amzn-price";
+				PRODUCT_NAME = "価格推移 beta";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31DC209823507A4400AB204A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E443A62A5E2E900562A729D6 /* Pods-amzn-price.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "amzn-price/価格推移 beta.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "amzn-price/Preview\\ Content";
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amzn-price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.amzn-price";
+				PRODUCT_NAME = "価格推移 beta";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31DC209A23507A4400AB204A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0AAE2911593B6C90938B26 /* Pods-amzn-priceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "amzn-priceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takpika.amzn-priceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amzn-price.app/amzn-price";
+			};
+			name = Debug;
+		};
+		31DC209B23507A4400AB204A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759EB8B0DD58FCABE620162D /* Pods-amzn-priceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "amzn-priceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takpika.amzn-priceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amzn-price.app/amzn-price";
+			};
+			name = Release;
+		};
+		31DC209D23507A4400AB204A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80A5F2DA88EDB27FAA66ABA /* Pods-amzn-price-amzn-priceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "amzn-priceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takpika.amzn-priceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "amzn-price";
+			};
+			name = Debug;
+		};
+		31DC209E23507A4400AB204A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC79CB057B762DAB7B806E89 /* Pods-amzn-price-amzn-priceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "amzn-priceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takpika.amzn-priceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "amzn-price";
+			};
+			name = Release;
+		};
+		31FA2B9225767898008508CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "amzn-price-intent/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.amzn-price-intent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		31FA2B9325767898008508CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "amzn-price-intent/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.amzn-price-intent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31312E1624A1F6A900B62A40 /* Build configuration list for PBXNativeTarget "amzn-price-extExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31312E1424A1F6A900B62A40 /* Debug */,
+				31312E1524A1F6A900B62A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DC206723507A3B00AB204A /* Build configuration list for PBXProject "amzn-price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DC209423507A4400AB204A /* Debug */,
+				31DC209523507A4400AB204A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DC209623507A4400AB204A /* Build configuration list for PBXNativeTarget "amzn-price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DC209723507A4400AB204A /* Debug */,
+				31DC209823507A4400AB204A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DC209923507A4400AB204A /* Build configuration list for PBXNativeTarget "amzn-priceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DC209A23507A4400AB204A /* Debug */,
+				31DC209B23507A4400AB204A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DC209C23507A4400AB204A /* Build configuration list for PBXNativeTarget "amzn-priceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DC209D23507A4400AB204A /* Debug */,
+				31DC209E23507A4400AB204A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FA2B9425767898008508CF /* Build configuration list for PBXNativeTarget "amzn-price-intent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FA2B9225767898008508CF /* Debug */,
+				31FA2B9325767898008508CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3174847F2447FC2000E3636D /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		317484802447FC2100E3636D /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3174847F2447FC2000E3636D /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 31DC206423507A3B00AB204A /* Project object */;
+}
